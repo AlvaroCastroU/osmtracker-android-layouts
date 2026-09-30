@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <!-- Poligonos (3) -->
+  <!-- Poligonos -->
   <button id="playground" label="Patio de juegos" icon="playground.png" target="leisure=playground" />
   <button id="yoga" label="Estudio de yoga" icon="yoga.png" target="leisure=sports_centre" />
   <button id="cafeteria" label="Cafeteria" icon="cafe.png" target="amenity=cafe" />
   
-  <!-- Lineas (4) -->
+  <!-- Lineas -->
   <button id="escalera1" label="Escaleras" icon="steps.png" target="highway=steps" />
   <button id="acera1" label="Acera 1" icon="footway.png" target="highway=footway" />
   <button id="acera2" label="Acera 2" icon="footway.png" target="highway=footway" />
   <button id="acera3" label="Acera 3" icon="footway.png" target="highway=footway" />
   
-  <!-- Puntos (3) -->
+  <!-- Puntos -->
   <button id="arbol1" label="Arbol 1" icon="tree.png" target="natural=tree" />
   <button id="arbol2" label="Arbol 2" icon="tree.png" target="natural=tree" />
   <button id="arbol3" label="Arbol 3" icon="tree.png" target="natural=tree" />
