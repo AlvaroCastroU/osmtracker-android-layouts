@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Disposición: Accesibilidad y confort peatonal en Plaza Real (Alajuela) -->
+<layouts>
+    <layout name="root">
+        <row>
+            <button type="voicerec" icon="logo_voice"/>
+            <button type="picture" icon="logo_camera"/>
+            <button type="textnote" icon="logo_textnote"/>
+        </row>
+        <row>
+            <button type="tag" label="Rampa" icon="accesibilidad_plaza_real_icons/rampa.png"/>
+            <button type="tag" label="Escaleras" icon="accesibilidad_plaza_real_icons/escaleras.png"/>
+            <button type="tag" label="Obstáculo" icon="accesibilidad_plaza_real_icons/obstaculo.png"/>
+        </row>
+        <row>
+            <button type="tag" label="Acera buena" icon="accesibilidad_plaza_real_icons/acera_buena.png"/>
+            <button type="tag" label="Acera dañada" icon="accesibilidad_plaza_real_icons/acera_danada.png"/>
+            <button type="tag" label="Baño accesible" icon="accesibilidad_plaza_real_icons/bano.png"/>
+        </row>
+        <row>
+            <button type="page" label="Mobiliario" icon="accesibilidad_plaza_real_icons/mobiliario.png" targetlayout="mobiliario"/>
+            <button type="page" label="Percepción" icon="accesibilidad_plaza_real_icons/percepcion.png" targetlayout="percepcion"/>
+            <button type="tag" label="Parqueo discapacidad" icon="accesibilidad_plaza_real_icons/parqueo.png"/>
+        </row>
+    </layout>
+
+    <layout name="mobiliario">
+        <row>
+            <button type="voicerec" icon="logo_voice"/>
+            <button type="picture" icon="logo_camera"/>
+            <button type="textnote" icon="logo_textnote"/>
+        </row>
+        <row>
+            <button type="tag" label="Banca" icon="accesibilidad_plaza_real_icons/banca.png"/>
+            <button type="tag" label="Basurero" icon="accesibilidad_plaza_real_icons/basurero.png"/>
+            <button type="tag" label="Bebedero" icon="accesibilidad_plaza_real_icons/bebedero.png"/>
+        </row>
+        <row>
+            <button type="tag" label="Iluminación" icon="accesibilidad_plaza_real_icons/iluminacion.png"/>
+            <button type="tag" label="Sombra" icon="accesibilidad_plaza_real_icons/sombra.png"/>
+            <button type="tag" label="Árbol" icon="accesibilidad_plaza_real_icons/arbol.png"/>
+        </row>
+    </layout>
+
+    <layout name="percepcion">
+        <row>
+            <button type="voicerec" icon="logo_voice"/>
+            <button type="picture" icon="logo_camera"/>
+            <button type="textnote" icon="logo_textnote"/>
+        </row>
+        <row>
+            <button type="tag" label="Me siento seguro" icon="accesibilidad_plaza_real_icons/seguro.png"/>
+            <button type="tag" label="Me siento inseguro" icon="accesibilidad_plaza_real_icons/inseguro.png"/>
+            <button type="tag" label="Lugar agradable" icon="accesibilidad_plaza_real_icons/agradable.png"/>
+        </row>
+        <row>
+            <button type="tag" label="Ruido excesivo" icon="accesibilidad_plaza_real_icons/ruido.png"/>
+            <button type="tag" label="Poca luz" icon="accesibilidad_plaza_real_icons/poca_luz.png"/>
+            <button type="tag" label="Zona descuidada" icon="accesibilidad_plaza_real_icons/descuidada.png"/>
+        </row>
+    </layout>
+</layouts>
